@@ -1,0 +1,201 @@
+html {
+    font-family: "Roboto", sans-serif; 
+}
+
+header nav {
+    height: 50px;
+    background-color: #212121;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    
+}
+header {
+    position: relative;
+    height: 50px;
+}
+.menu {
+  
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 13px 70px;
+    
+}
+
+.menu .menu_item {
+    display: block;
+    margin: 0 auto;
+    border-right: 2px dotted white;
+    padding-right: 28px; 
+}
+
+.menu .menu_item .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+header .subheader {
+    height: 84px;
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 19px;
+    padding-bottom: 17px;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+}
+
+header .subheader .logo_text {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+header .subheader .phone_text {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+}
+
+header .subheader .phone {
+    margin-top: 8px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+header .subheader button, .main .main_btn {
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: 3px solid rgba(0, 0, 0, 0.07);
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    border-radius: 4px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main {
+    height: 800px;
+    background: url(../bg/main_bg.jpg) center center/cover no-repeat;
+    padding: 150px 0 130px 0;
+
+}
+.main h1.main_text{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin: 0;
+}
+
+.main h2.submain_text {
+    
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.main .main_description {
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px;
+}
+
+.main .main_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 118px;
+    width: 259px;
+    height: 63px;
+    font-size: 18px;
+    
+}
+
+.reason {
+   
+    padding-top: 71px;
+    padding-bottom: 65px;
+}
+
+.reason .label {
+    margin: 0 auto;
+    padding-top: 4px;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reason .title {
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reason .list_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reason .item_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+
+}
+
+
+.reason .text_item {
+    width: 343px;
+}
+
+.reason .text_item .title_item {
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.reason .text_item .text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
